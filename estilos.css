@@ -13,10 +13,6 @@ a {
 }
 
 
-img{
-    max-width: 100px;
-    max-height: 50px;
-}
 
 /* ------------NAVBAR----------- */
 
@@ -26,6 +22,11 @@ nav {
     margin-top: 0;
     width: 100%;
     display: flex;
+}
+
+.nav-logo img{
+    max-width: 100px;
+    max-height: 50px;
 }
 
 nav>ul {
