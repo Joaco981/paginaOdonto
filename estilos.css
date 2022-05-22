@@ -138,6 +138,23 @@ a {
 }
 
 
+/* --------INICIO-------- */
+
+
+/* --------CARTAS-------- */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-carta {
+    display: flex;
+    align-items: center;
+}
+
+
 /* --------FOOTER--------- */
 
 .contactanos {
