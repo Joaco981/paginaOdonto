@@ -12,6 +12,9 @@ a {
     list-style: none;
 }
 
+.image-fondo {
+    background-image: url(./imagenes/fondo_pagina2.jpg)
+}
 
 /* -------------NAVBAR------------- */
 
