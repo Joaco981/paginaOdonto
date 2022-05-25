@@ -159,6 +159,18 @@ a {
     align-items: center;
 }
 
+.card {
+    transition: transform .2s, box-shadow .2s;
+}
+
+.card:hover {
+    border: none;
+    transform: translate(0, -5px);
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
 
 /* --------PAGINAS------ */
 
@@ -179,6 +191,34 @@ a {
     color: white;
     background-color: green;
     border-radius: 10px;
+}
+
+
+/* -----------PRUEBA--------- */
+
+.asignatura {
+    min-height: 90vh;
+}
+
+.main-asignatura {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.main-asignatura p {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.card-pdf {
+    background-color: white;
+    margin: .5rem;
+}
+
+.card-pdf img {
+    width: 12rem;
 }
 
 
@@ -291,6 +331,22 @@ a {
 
 .email span {
     background: #EB2222;
+}
+
+
+/* ---------MEDIA QUERIES----------- */
+
+@media (min-width: 1200px) {
+    .main-asignatura {
+        display: flex;
+        flex-direction: row;
+        gap: 8rem;
+    }
+    .asignatura {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }
 
 @media (min-width: 768px) {
