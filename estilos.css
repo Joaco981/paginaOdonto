@@ -150,6 +150,19 @@ h1{
     margin: 1rem;
 }
 
+/* -----REDES FLOTANTE---- */
+ 
+.contacto-logo{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100000;
+}
+.contacto-logo a img{
+  height: 75px;
+  width: 75px;
+}
+
 /* --------CARTAS-------- */
 
 .card-container {
@@ -178,6 +191,12 @@ h1{
 
 
 /* --------PAGINAS------ */
+
+.asignatura-title{
+    margin: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
 
 .main {
     display: flex;
