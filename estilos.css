@@ -13,7 +13,7 @@ a {
 }
 
 .image-fondo {
-    background-image: url(./imagenes/fondo_pagina2.jpg)
+    background: linear-gradient(white,cyan, blue);
 }
 
 
@@ -146,9 +146,16 @@ a {
 
 /* --------INICIO-------- */
 
-h1{
-    margin: 1rem;
+.titulo-primero{
+    margin-top: 50px;
+    margin-left: 50px;
 }
+
+.titulo-segundo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
 
 /* --------CARTAS-------- */
 
@@ -390,7 +397,7 @@ h1{
     .principal {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
     }
