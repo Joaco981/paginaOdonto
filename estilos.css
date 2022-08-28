@@ -146,6 +146,12 @@ a {
 
 /* --------INICIO-------- */
 
+h1{
+    margin: 1rem;
+}
+
+/* --------CARTAS-------- */
+
 .titulo-primero{
     margin-top: 50px;
     margin-left: 50px;
@@ -156,8 +162,6 @@ a {
     margin-left: 50px;
 }
 
-
-/* --------CARTAS-------- */
 
 .card-container {
     display: flex;
@@ -185,6 +189,12 @@ a {
 
 
 /* --------PAGINAS------ */
+
+.asignatura-title{
+    margin: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
 
 .main {
     display: flex;
