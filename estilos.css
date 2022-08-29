@@ -13,7 +13,7 @@ a {
 }
 
 .image-fondo {
-    background: linear-gradient(white,cyan, blue);
+    background: url(/imagenes/fondo3.jpg);
 }
 
 
@@ -22,7 +22,7 @@ a {
 /* ----ICONOS REDES SUPERIOR--- */
 
 .header {
-    background-color: #00b4d8;
+    background-color: #0788e4;
     box-shadow: 1px 1px 5px 1px black;
     position: sticky;
     top: 0;
@@ -45,7 +45,7 @@ a {
     width: 100%;
     height: 100%;
     position: sticky;
-    background-color: #00b4d8;
+    background-color: #0788e4;
     overflow: hidden;
 }
 
@@ -152,12 +152,7 @@ h1{
 
 /* --------CARTAS-------- */
 
-.titulo-primero{
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-.titulo-segundo{
+.titulos-inicio{
     margin-top: 50px;
     margin-left: 50px;
 }
@@ -249,11 +244,10 @@ h1{
     width: 12rem;
 }
 
-
 /* --------FOOTER--------- */
 
 .contactanos {
-    background-color: #00b4d8;
+    background-color: #0788e4;
     margin: 0;
     padding: 0;
     overflow: hidden;
