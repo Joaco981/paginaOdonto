@@ -248,8 +248,13 @@ h1{
 }
 
 .main-asignatura p {
-    font-size: 1.5rem;
+    font-size: 19px;
     margin: 1rem;
+}
+
+.paginas {
+    font-size: 10px;
+    margin-right: 100px;
 }
 
 .card-pdf {
