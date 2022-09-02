@@ -172,6 +172,9 @@ h1{
 .titulos-inicio{
     margin-top: 50px;
     margin-left: 50px;
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+    color: rgb(199, 61, 241);
 }
 
 
@@ -206,6 +209,8 @@ h1{
     margin: 1rem;
     font-weight: bold;
     text-align: center;
+    font-family:'Dancing Script', cursive;
+    color: #cc2366;
 }
 
 .main {
