@@ -13,11 +13,11 @@ a {
 }
 
 .image-fondo {
-    background: url(/imagenes/1932.jpg);
-    background-size: cover;
+    background: url(/imagenes/fondo5.jpg);
+    /* background-size: cover; */
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
 
 /* -------------NAVBAR------------- */
@@ -173,7 +173,6 @@ h1{
     margin-left: 50px;
     text-align: center;
     font-family:'Dancing Script', cursive;
-    color: rgb(199, 61, 241);
 }
 
 .card-container {
