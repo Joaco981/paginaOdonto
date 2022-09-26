@@ -26,3 +26,17 @@ function toggleText() {
   }
 }
 
+// --popup--
+
+let modal = document.getElementById("staticBackdrop");
+let modalDeploy = document.getElementById("modal-deploy");
+let modalClose = document.getElementById("modal-close")
+
+modalDeploy.onclick = (e) => {
+  e.preventDefault();
+  modal.style.display = "block";
+}
+modalClose.onclick = (e) => {
+  e.preventDefault();
+  modal.style.display = "none";
+}
